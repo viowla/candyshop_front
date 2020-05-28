@@ -31,7 +31,7 @@ class DessertsList extends Component {
         const {desserts} = this.state;
         const dessertList = desserts.map(item => (
             <Col key={item.id} span={6}>
-                <Card className="separateMusic" hoverable style={{width: 250}}
+                <Card className="separateDessert" hoverable style={{width: 250}}
                       cover={<img alt="example" src={item.img}/>}>
                     <Meta title={item.name} description={item.description}/>
                 </Card>
