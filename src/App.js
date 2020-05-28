@@ -6,6 +6,7 @@ import Home_page from "./home";
 import Login from "./login";
 import Profile from "./account";
 import Basket from "./basket";
+import Desserts from "./desserts";
 import {BrowserRouter as Router, Route,} from "react-router-dom";
 import Registration from "./registration";
 
