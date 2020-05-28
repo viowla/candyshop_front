@@ -1,0 +1,11 @@
+.dessertRecomendations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.separateDessert{
+    margin: 10.5%;
+}
+
+
+
